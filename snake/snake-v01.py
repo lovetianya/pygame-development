@@ -57,13 +57,11 @@ back_img = pygame.image.load(os.path.join(img_folder, 'back.png'))
 snake_head_img = pygame.image.load(os.path.join(img_folder, 'head.png'))
 snake_head_img.set_colorkey(BLACK)
 food_img = pygame.image.load(os.path.join(img_folder, 'orb2.png'))
-# snake_body_img = pygame.image.load(os.path.join(img_folder, '.jpg'))
 
 # 调整图片的大小，和屏幕一样大
 background = pygame.transform.scale(back_img, (WIDTH, HEIGHT))
 
 food = pygame.transform.scale(food_img, (CUBE_WIDTH, CUBE_WIDTH))
-# head = pygame.transform.scale(snake_head_img, (CUBE_WIDTH, CUBE_WIDTH))
 
 
 # 设置一下音量大小，防止过大
@@ -106,14 +104,6 @@ def draw_grids():
 def draw_body(direction=D_LEFT):
     for sb in snake_body[1:]:
         screen.blit(food, sb)
-        # pygame.draw.rect(screen, WHITE, (sb[0], sb[1], CUBE_WIDTH, CUBE_WIDTH))
-
-    # 将头部改成红色
-    # pygame.draw.rect(screen, RED,
-    #                 (snake_body[0][0],
-    #                  snake_body[0][1],
-    #                  CUBE_WIDTH,
-    #                  CUBE_WIDTH))
 
     if direction == D_LEFT:
         rot = 0
@@ -146,11 +136,6 @@ def generate_food():
 
 # 画出食物的主体
 def draw_food():
-    # print (food_pos)
-    # fr = pygame.draw.rect(screen, GREEN,
-    #                  (food_pos[0] * CUBE_WIDTH,
-    #                   food_pos[1] * CUBE_WIDTH, CUBE_WIDTH, CUBE_WIDTH))
-    # fr.set_colorkey(GREEN)
     screen.blit(food, (food_pos[0] * CUBE_WIDTH,
                       food_pos[1] * CUBE_WIDTH, CUBE_WIDTH, CUBE_WIDTH))
 
@@ -251,7 +236,6 @@ while running:
 
     # 计数器加一
     counter += 1
-    # pygame.draw.rect(screen, WHITE, (left, top, CUBE_WIDTH, CUBE_WIDTH))
     pygame.display.update()
 
 pygame.quit()
