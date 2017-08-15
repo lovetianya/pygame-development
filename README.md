@@ -27,7 +27,7 @@ python snake-v02.py
 
 ### 欢乐五子棋
 #### 欢乐五子棋 v00
-<img src="https://raw.githubusercontent.com/lovetianya/pygame-development/master/fiveinrow/images/init-perf.png" width="700" height="700" >
+<img src="https://raw.githubusercontent.com/lovetianya/pygame-development/master/fiveinrow/pictures/init-perf.png" width="700" height="700" >
 
 #### 运行方式
 ```
