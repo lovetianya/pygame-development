@@ -34,7 +34,7 @@ python snake-v02.py
 python fiveinrow-v0.py
 ```
 
-#### 欢乐五子棋 v-vinal
+#### 欢乐五子棋 v-final
 <img src="https://raw.githubusercontent.com/lovetianya/pygame-development/master/fiveinrow/pictures/final.png" width="700" height="700" >```
 
 #### 运行方式
