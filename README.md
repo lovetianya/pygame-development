@@ -32,12 +32,15 @@ python snake-v02.py
 #### 运行方式
 ```
 python fiveinrow-v0.py
+```
 
 #### 欢乐五子棋 v-vinal
 <img src="https://raw.githubusercontent.com/lovetianya/pygame-development/master/fiveinrow/pictures/final.png" width="700" height="700" >```
 
 #### 运行方式
+```
 python fiveinrow-v-final.py
+```
 
 ## 如果大家想看具体说明的话，可以到我的个人博客哦
 
