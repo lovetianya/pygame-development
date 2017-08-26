@@ -41,8 +41,8 @@ python fiveinrow-v0.py
 ```
 python fiveinrow-v-final.py
 ```
-
 ### 俄罗斯方块
+<img src="https://raw.githubusercontent.com/lovetianya/pygame-development/master/els/pictures/els.png" width="700" height="400">
 #### 运行方式
 ```
 python3 run-this.py
