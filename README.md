@@ -42,6 +42,12 @@ python fiveinrow-v0.py
 python fiveinrow-v-final.py
 ```
 
+### 俄罗斯方块
+#### 运行方式
+```
+python3 run-this.py
+```
+
 ## 如果大家想看具体说明的话，可以到我的个人博客哦
 
 <a style="font-size:3em;" href="http://59.110.220.165">戳这里</a>到我的Blog!
